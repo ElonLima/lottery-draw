@@ -1,0 +1,54 @@
+.textMargin {
+    width: 90%;
+    margin: 0.8rem auto;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: min-content max-content;
+    column-gap: 10px;
+}
+
+.containerText .titleAndParagraph,
+.containerMethods .containerText {
+    margin-bottom: 0.8rem;
+}
+
+.containerText .titleAndParagraph h2,
+.containerText .titleAndParagraph p,
+.containerMethods .containerText h2,
+.containerMethods .containerText p {
+    margin-bottom: 0.2rem;
+}
+
+.containerMethods .containerText h2 {
+    margin-bottom: 0.4rem;
+}
+
+.containerMethods .containerText img {
+    display: flex;
+    margin: auto;
+}
+
+.card {
+    margin-top: 5vh;
+    margin: 5vh auto auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img {
+    width: 24vw;
+    overflow: hidden;
+    
+}
+
+.card h2 {
+
+}
+
+.card p {
+
+}
