@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="../assets/favico.svg" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lottery</title>
+    <link rel="stylesheet" href="../public/main.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="containerHeader">
+            <div class="logo">
+                <a href="/views/index.html"><img id="logo" src="../assets/logo.svg" alt="Logo"></a>
+            </div>
+        
+            <div class="linksHeader">
+                <a href="/views/about.html">About</a>
+                <a href="/views/methodologies.html">Methodologies</a>
+                <a href="/views/developer.html">Developer</a>
+            </div>
+
+            <div class="toggle">
+                <img id="1" onclick="changeMethod()" class="toggle" src="../assets/mainToggle.svg" alt="">                
+            </div>
+            
+        </div>
+    
+    </header>
+
+    <div class="container">
+        
+        <div id="leftSide">
+            <h2 >The winning numbers are...</h2>
+            <p id="winningNumbers"></p>
+            <img src="../assets/prizePicture.svg" alt="">
+        </div>
+
+        <div id="rightSide">
+            <div id="textBlock">
+                <h3>Check Your Result!</h3>
+                <p>Maybe today's your lucky day!</p>
+                <button onclick="getDrawNumbers()" >Check Lotto</button>
+            </div>
+            
+        </div>
+
+    </div>
+
+<script src="../public/script.js"></script>
+
+</body>
+</html>
