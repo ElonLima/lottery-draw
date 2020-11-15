@@ -27,7 +27,7 @@ function printResult(arrayResult) {
 function secondMethod() {
     let cont = 0;
     while (cont<6) {
-        let num = Math.floor( Math.random() * 60 + 1 );
+        let num = Math.floor( (Math.random() * 60) + 1 );
         if (checkValue(num)) {
             numbersDrawn[cont] = num;
             cont++;
