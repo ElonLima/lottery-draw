@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="../assets/favico.svg" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Methodologies</title>
+    <link rel="stylesheet" href="../public/main.css">
+    <link rel="stylesheet" href="../public/content.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="containerHeader">
+            
+            <div class="logo">
+                <a href="/views/index.html"><img id="logo" src="../assets/logo.svg" alt="Logo"></a>
+            </div>
+        
+            <div class="linksHeader">
+                <a href="/views/about.html">About</a>
+                <a href="/views/methodologies.html">Methodologies</a>
+                <a href="/views/developer.html">Developer</a>
+            </div>
+
+            <div class="toggle">
+                <img src="" alt="">                
+            </div>
+            
+        </div>
+    
+    </header>
+
+    <div class="containerMethods textMargin">
+        
+        <div class="containerText">
+            
+            <h2>Method 1: Multiplicative Congruential</h2>
+            
+            <p>
+                <strong>Multiplicative Congruential</strong> Method is a type of linear 
+                congruential generator for generating pseudorandom numbers in a specific range.
+            </p>
+            
+            <p>
+                <li>Choose the seed value ( X0 ), modulus parameter ( m ), and multiplier term ( a ).</li>
+                <li>Initialize the required amount of random numbers to generate (say, an integer variable noOfRandomNums).</li>
+                <li>Define a storage to keep the genrated random numbers (here, vector is considered) of size noOfRandomNums.</li>
+                <li>Initialize the 0th index of the vector with the seed value.</li>
+                <li>For rest of the indexes follow the Multiplicative Congruential Method to generate the random numbers.</li>
+                <li>Finally, return the random numbers.</li>
+            </p>
+            
+            <p>
+                The efficiency of these generators is higher when m is raised to the power of two,
+                so the operation mod becomes trivial.
+            </p>
+            
+            <img src="../assets/MultiplicativeCongruentialMethod.png" alt="">
+                
+        </div>
+
+        <div class="containerText">
+            
+            <h2>Method 2: JavaScript random number generator.</h2>
+            
+            <p>
+                JavaScript provides us a method to get random numbers: Math.random(). 
+                Math.random() returns a random number between 0 (inclusive),  and 1 (exclusive). 
+                But, as you <a style="color:rgb(22, 3, 196)" href="/views/about.html">already know</a>, 
+                we need six numbers from 1 to 60.<br>
+                So we adapted our native method to fit in our propose.
+            </p>
+            
+            <img src="../assets/javascript-MathRandom.png" alt="">
+        
+        </div>
+
+    </div>
+
+</body>
+</html>
