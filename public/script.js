@@ -1,7 +1,7 @@
 let toggleClick = document.querySelector('.containerHeader').querySelector('.toggle').querySelector("img");
 const numbersDrawn = [];
 
-console.log(`The programm is using the method ${toggleClick.id}.`);
+console.log(`The program is using the method ${toggleClick.id}.`);
 
 function changeMethod() {
     if (toggleClick.id == 1) {
@@ -10,7 +10,7 @@ function changeMethod() {
     } else {
         toggleClick.id = 1
         toggleClick.src = "../assets/mainToggle.svg";
-    } console.log(`The programm is using the method ${toggleClick.id}.`)
+    } console.log(`The program is using the method ${toggleClick.id}.`)
 }
 
 function checkValue(number) {

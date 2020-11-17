@@ -1,11 +1,11 @@
 .textMargin {
     width: 90%;
-    margin: 0.8rem auto;
+    margin: 8vh auto auto;
 }
 
 .container {
     display: grid;
-    grid-template-columns: min-content max-content;
+    grid-template-columns: min-content auto;
     column-gap: 10px;
 }
 
@@ -31,8 +31,6 @@
 }
 
 .card {
-    margin-top: 5vh;
-    margin: 5vh auto auto 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,15 +38,17 @@
 }
 
 .card img {
-    width: 24vw;
+    width: 22vw;
     overflow: hidden;
     
 }
 
-.card h2 {
-
+.card h3 {
+    margin: 0.8vh auto auto auto;
 }
 
-.card p {
-
+.AboutDeveloper p {
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-top: 0.8vh;
 }
